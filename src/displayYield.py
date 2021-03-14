@@ -12,13 +12,13 @@ def displayYield(apiResponse, verbose=1):
             rews.append(sum([x["usd"] for x in farm["rewards"]]))
             perc = float(rews[-1]/deps[-1])*100.0
             if verbose > 1:
-                print(f'Farm: {farm["farm"]["id"]:35} ({farm["deposit"]["symbol"]:10}): deposits: {deps[-1]:9.8} USD, reward: {rews[-1]:9.6} USD, ({perc:5.03} %)')
+                print(f'Farm: {farm["farm"]["id"]:35} ({farm["deposit"]["symbol"]:10}): deposits: {deps[-1]:12.6f} USD, reward: {rews[-1]:12.6f} USD, ({perc:6.4f} %)')
 
     dep = sum(deps)
     rew = sum(rews)
     tot = dep + rew
-    perc = rew / dep * 100.0
-    if verbose: print(f"{apiResponse.headers['Date']}: Value: {tot:>10.4f} USD    Deposits: {dep:>10.4f} USD    rewards: {rew:10.4f} USD    ROI: {perc:>6.4} %")
+    perc = rew / dep * 100.000
+    if verbose: print(f"{apiResponse.headers['Date']}: Value: {tot:>12.6f} USD    Deposits: {dep:>12.6f} USD    rewards: {rew:12.6f} USD    ROI: {perc:>12.6f} %")
 
 
 def getYield():
