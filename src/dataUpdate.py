@@ -1,28 +1,31 @@
 import argparse
 import json
-import sys
+import jsonlines
 import requests
-from datetime import datetime
 
 # Go look here: https://www.dataquest.io/blog/python-api-tutorial/
 
 def updateWallet(wallet):
 
-    # GET all the farms info
+    # GET all info from API
     address = wallet["address"]
     farms = requests.get(f'https://farm.army/api/v0/farms/{address}')
     balances = requests.get(
         f'https://farm.army/api/v0/balances/{address}'
     )
 
-    resp = {
+    # Create data dictionary
+    data = {
         "wallet": wallet,
         "date": farms.headers["Date"],
         "farms": farms.json(),
         "balances": balances.json(),
     }
-    # Write response
-    json.dump(resp, open(wallet["datafile"],"a"))
+
+    # Write data as a new line
+    with jsonlines.open(wallet["datafile"], "a") as writer:
+        writer.write(data)
+
 
 def loadConfig(configFile):
     config = json.load(open(configFile, 'r'))
