@@ -39,3 +39,15 @@ and the repository exists.
 Already on 'data'
 Sun, 14 Mar 2021 08:50:04 GMT: Value:   981.7718 USD    Deposits:   970.5633 USD    rewards:    11.2085 USD    ROI:  1.155 %
 Finished successfully! Committing data!
+[data 1020067] update: Data update on 20210314T005000
+ 3 files changed, 14 insertions(+)
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+---------------------------------------------------------
+--- Date: 20210314T011000
+Already on 'data'
+Sun, 14 Mar 2021 09:10:07 GMT: Value:   987.1736 USD    Deposits:   975.8619 USD    rewards:    11.3117 USD    ROI:  1.159 %
+Finished successfully! Committing data!
