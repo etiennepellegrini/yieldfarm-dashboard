@@ -3,9 +3,11 @@ import json
 import jsonlines
 import requests
 
+import displayYield
+
 # Go look here: https://www.dataquest.io/blog/python-api-tutorial/
 
-def updateWallet(wallet):
+def updateWallet(wallet, verbose):
 
     # GET all info from API
     address = wallet["address"]
@@ -26,16 +28,23 @@ def updateWallet(wallet):
     with jsonlines.open(wallet["datafile"], "a") as writer:
         writer.write(data)
 
+    # Display ROI
+    if verbose:
+        displayYield.displayYield(farms, verbose)
 
-def loadConfig(configFile):
+
+def loadConfig(args):
+    configFile = args.config
     config = json.load(open(configFile, 'r'))
     config["wallets"] = json.load(open(config["wallet_list"]))
+    config["verbose"] = args.verbose
+
     return config
 
 
 def dataUpdate(config):
     for wallet in config["wallets"]:
-        updateWallet(wallet)
+        updateWallet(wallet, config["verbose"])
 
 
 if __name__ == '__main__':
@@ -51,5 +60,5 @@ if __name__ == '__main__':
 
     # Read and convert input arguments
     args = parser.parse_args()
-    config = loadConfig(args.config)
+    config = loadConfig(args)
     dataUpdate(config)
