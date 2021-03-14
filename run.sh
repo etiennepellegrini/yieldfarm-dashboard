@@ -9,9 +9,9 @@ git checkout data >/dev/null
 python src/dataUpdate.py -v
 
 if [[ $? -eq 0 ]]; then
-	tail -n 1 run.log >> numbers.log
+	tail -n 1 run.log >> data/summary.log
 	echo "Finished successfully! Committing data!"
-	git add run.log numbers.log data 2> /dev/null
+	git add run.log data 2> /dev/null
 	git commit -m "update: Data update on $dateNow"
 	git push origin data
 fi
