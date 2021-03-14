@@ -13,5 +13,6 @@ if [[ $? -eq 0 ]]; then
 	echo "Finished successfully! Committing data!"
 	git add run.log numbers.log data 2> /dev/null
 	git commit -m "update: Data update on $dateNow"
+	git push origin data
 fi
 echo "---------------------------------------------------------"
