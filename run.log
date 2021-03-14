@@ -216,3 +216,12 @@ Everything up-to-date
 Already on 'data'
 Sun, 14 Mar 2021 15:00:07 GMT: Value:   955.349782 USD    Deposits:   943.450310 USD    rewards:    11.899472 USD    ROI:     1.261272 %
 Finished successfully! Committing data!
+[data 69f8910] update: Data update on 20210314T080000
+ 3 files changed, 30 insertions(+)
+To github.com:etiennepellegrini/yieldfarm-dashboard.git
+   bfa8176..69f8910  data -> data
+---------------------------------------------------------
+--- Date: 20210314T083001
+Already on 'data'
+Sun, 14 Mar 2021 15:30:06 GMT: Value:   951.979916 USD    Deposits:   940.055100 USD    rewards:    11.924816 USD    ROI:     1.268523 %
+Finished successfully! Committing data!
