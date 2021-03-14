@@ -15,3 +15,15 @@ Finished successfully! Committing data!
 Already on 'data'
 Sun, 14 Mar 2021 08:20:16 GMT: Value:   977.7423 USD    Deposits:   966.7764 USD    rewards:    10.9659 USD    ROI:  1.134 %
 Finished successfully! Committing data!
+[data e3c6753] update: Data update on 20210314T002000
+ 3 files changed, 9 insertions(+)
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+---------------------------------------------------------
+--- Date: 20210314T003000
+Already on 'data'
+Sun, 14 Mar 2021 08:30:04 GMT: Value:   979.3861 USD    Deposits:   968.3871 USD    rewards:    10.9990 USD    ROI:  1.136 %
+Finished successfully! Committing data!
