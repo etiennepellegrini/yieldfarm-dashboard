@@ -190,3 +190,29 @@ To github.com:etiennepellegrini/yieldfarm-dashboard.git
 Already on 'data'
 Sun, 14 Mar 2021 14:00:09 GMT: Value:   951.853104 USD    Deposits:   940.253951 USD    rewards:    11.599153 USD    ROI:     1.233619 %
 Finished successfully! Committing data!
+[data 41a5640] update: Data update on 20210314T070001
+ 3 files changed, 11 insertions(+)
+To github.com:etiennepellegrini/yieldfarm-dashboard.git
+   caeb9f1..41a5640  data -> data
+---------------------------------------------------------
+--- Date: 20210314T073000
+Already on 'data'
+Sun, 14 Mar 2021 14:30:04 GMT: Value:   954.788358 USD    Deposits:   943.063246 USD    rewards:    11.725112 USD    ROI:     1.243301 %
+Finished successfully! Committing data!
+On branch data
+Your branch is up to date with 'origin/data'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   data/summary.log
+	modified:   data/wallet_0.json
+	modified:   run.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Everything up-to-date
+---------------------------------------------------------
+--- Date: 20210314T080000
+Already on 'data'
+Sun, 14 Mar 2021 15:00:07 GMT: Value:   955.349782 USD    Deposits:   943.450310 USD    rewards:    11.899472 USD    ROI:     1.261272 %
+Finished successfully! Committing data!
