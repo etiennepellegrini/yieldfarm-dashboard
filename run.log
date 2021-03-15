@@ -384,3 +384,38 @@ To github.com:etiennepellegrini/yieldfarm-dashboard.git
 Already on 'data'
 Mon, 15 Mar 2021 14:30:07 GMT: Value:   923.385155 USD    Deposits:   908.153217 USD    rewards:    15.231938 USD    ROI:     1.677243 %
 Finished successfully! Committing data!
+[data f99adad] update: Data update on 20210315T073000
+ 3 files changed, 11 insertions(+)
+To github.com:etiennepellegrini/yieldfarm-dashboard.git
+   e35938e..f99adad  data -> data
+---------------------------------------------------------
+--- Date: 20210315T080000
+Already on 'data'
+Traceback (most recent call last):
+  File "/Users/etiennes/GoogleDrive/code/perso/yieldfarm-dashboard/src/dataUpdate.py", line 64, in <module>
+    dataUpdate(config)
+  File "/Users/etiennes/GoogleDrive/code/perso/yieldfarm-dashboard/src/dataUpdate.py", line 47, in dataUpdate
+    updateWallet(wallet, config["verbose"])
+  File "/Users/etiennes/GoogleDrive/code/perso/yieldfarm-dashboard/src/dataUpdate.py", line 33, in updateWallet
+    displayYield.displayYield(farms, verbose)
+  File "/Users/etiennes/GoogleDrive/code/perso/yieldfarm-dashboard/src/displayYield.py", line 20, in displayYield
+    perc = rew / dep * 100.000
+ZeroDivisionError: division by zero
+---------------------------------------------------------
+--- Date: 20210315T083001
+Already on 'data'
+Traceback (most recent call last):
+  File "/Users/etiennes/GoogleDrive/code/perso/yieldfarm-dashboard/src/dataUpdate.py", line 64, in <module>
+    dataUpdate(config)
+  File "/Users/etiennes/GoogleDrive/code/perso/yieldfarm-dashboard/src/dataUpdate.py", line 47, in dataUpdate
+    updateWallet(wallet, config["verbose"])
+  File "/Users/etiennes/GoogleDrive/code/perso/yieldfarm-dashboard/src/dataUpdate.py", line 33, in updateWallet
+    displayYield.displayYield(farms, verbose)
+  File "/Users/etiennes/GoogleDrive/code/perso/yieldfarm-dashboard/src/displayYield.py", line 20, in displayYield
+    perc = rew / dep * 100.000
+ZeroDivisionError: division by zero
+---------------------------------------------------------
+--- Date: 20210315T090001
+Already on 'data'
+Mon, 15 Mar 2021 16:00:05 GMT: Value:   888.524248 USD    Deposits:   873.602841 USD    rewards:    14.921407 USD    ROI:     1.708031 %
+Finished successfully! Committing data!
