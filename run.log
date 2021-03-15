@@ -419,3 +419,12 @@ ZeroDivisionError: division by zero
 Already on 'data'
 Mon, 15 Mar 2021 16:00:05 GMT: Value:   888.524248 USD    Deposits:   873.602841 USD    rewards:    14.921407 USD    ROI:     1.708031 %
 Finished successfully! Committing data!
+[data cf6db78] update: Data update on 20210315T090001
+ 3 files changed, 39 insertions(+)
+To github.com:etiennepellegrini/yieldfarm-dashboard.git
+   f99adad..cf6db78  data -> data
+---------------------------------------------------------
+--- Date: 20210315T093000
+Already on 'data'
+Mon, 15 Mar 2021 16:30:06 GMT: Value:   886.771329 USD    Deposits:   871.993036 USD    rewards:    14.778293 USD    ROI:     1.694772 %
+Finished successfully! Committing data!
