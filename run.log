@@ -848,3 +848,12 @@ KeyError: 'usd'
 Already on 'data'
 Tue, 16 Mar 2021 16:30:11 GMT: Value:   896.912805 USD    Deposits:   877.617908 USD    rewards:    19.294897 USD    ROI:     2.198553 %
 Finished successfully! Committing data!
+[data 459e0e1] update: Data update on 20210316T093001
+ 3 files changed, 27 insertions(+)
+To github.com:etiennepellegrini/yieldfarm-dashboard.git
+   84105e5..459e0e1  data -> data
+---------------------------------------------------------
+--- Date: 20210316T100001
+Already on 'data'
+Tue, 16 Mar 2021 17:00:09 GMT: Value:   826.999392 USD    Deposits:   812.311107 USD    rewards:    14.688285 USD    ROI:     1.808209 %
+Finished successfully! Committing data!
