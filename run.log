@@ -824,3 +824,27 @@ To github.com:etiennepellegrini/yieldfarm-dashboard.git
 Already on 'data'
 Tue, 16 Mar 2021 15:30:09 GMT: Value:   885.026582 USD    Deposits:   872.982607 USD    rewards:    12.043975 USD    ROI:     1.379635 %
 Finished successfully! Committing data!
+[data 84105e5] update: Data update on 20210316T083000
+ 3 files changed, 11 insertions(+)
+To github.com:etiennepellegrini/yieldfarm-dashboard.git
+   71c0b51..84105e5  data -> data
+---------------------------------------------------------
+--- Date: 20210316T090000
+Already on 'data'
+Traceback (most recent call last):
+  File "/Users/etiennes/GoogleDrive/code/perso/yieldfarm-dashboard/src/dataUpdate.py", line 64, in <module>
+    dataUpdate(config)
+  File "/Users/etiennes/GoogleDrive/code/perso/yieldfarm-dashboard/src/dataUpdate.py", line 47, in dataUpdate
+    updateWallet(wallet, config["verbose"])
+  File "/Users/etiennes/GoogleDrive/code/perso/yieldfarm-dashboard/src/dataUpdate.py", line 33, in updateWallet
+    displayYield.displayYield(farms, verbose)
+  File "/Users/etiennes/GoogleDrive/code/perso/yieldfarm-dashboard/src/displayYield.py", line 12, in displayYield
+    rews.append(sum([x["usd"] for x in farm["rewards"]]))
+  File "/Users/etiennes/GoogleDrive/code/perso/yieldfarm-dashboard/src/displayYield.py", line 12, in <listcomp>
+    rews.append(sum([x["usd"] for x in farm["rewards"]]))
+KeyError: 'usd'
+---------------------------------------------------------
+--- Date: 20210316T093001
+Already on 'data'
+Tue, 16 Mar 2021 16:30:11 GMT: Value:   896.912805 USD    Deposits:   877.617908 USD    rewards:    19.294897 USD    ROI:     2.198553 %
+Finished successfully! Committing data!
