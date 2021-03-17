@@ -1100,3 +1100,25 @@ To github.com:etiennepellegrini/yieldfarm-dashboard.git
 Already on 'data'
 Wed, 17 Mar 2021 06:30:10 GMT: Value:   808.756825 USD    Deposits:   792.280605 USD    rewards:    16.476220 USD    ROI:     2.079594 %
 Finished successfully! Committing data!
+[data fbbcc16] update: Data update on 20210316T233000
+ 3 files changed, 11 insertions(+)
+To github.com:etiennepellegrini/yieldfarm-dashboard.git
+   a0d3be2..fbbcc16  data -> data
+---------------------------------------------------------
+--- Date: 20210317T000000
+Already on 'data'
+Traceback (most recent call last):
+  File "/Users/etiennes/GoogleDrive/code/perso/yieldfarm-dashboard/src/dataUpdate.py", line 64, in <module>
+    dataUpdate(config)
+  File "/Users/etiennes/GoogleDrive/code/perso/yieldfarm-dashboard/src/dataUpdate.py", line 47, in dataUpdate
+    updateWallet(wallet, config["verbose"])
+  File "/Users/etiennes/GoogleDrive/code/perso/yieldfarm-dashboard/src/dataUpdate.py", line 33, in updateWallet
+    displayYield.displayYield(farms, verbose)
+  File "/Users/etiennes/GoogleDrive/code/perso/yieldfarm-dashboard/src/displayYield.py", line 9, in displayYield
+    for platform in resp["platforms"]:
+TypeError: 'NoneType' object is not iterable
+---------------------------------------------------------
+--- Date: 20210317T003000
+Already on 'data'
+Wed, 17 Mar 2021 07:30:05 GMT: Value:   809.838359 USD    Deposits:   793.294077 USD    rewards:    16.544282 USD    ROI:     2.085517 %
+Finished successfully! Committing data!
