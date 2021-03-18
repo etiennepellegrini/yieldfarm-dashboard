@@ -130,3 +130,4 @@
 {"wallet": {"id": "wallet_0", "address": "0xEB1D8714D430Df1ebAd5dD202010d6fA020f4F07", "nickname": "BNB-farm", "datafile": "data/wallet_0.json"}, "date": "Thu, 18 Mar 2021 04:30:22 GMT", "farms": {"platforms": null}, "balances": []}
 {"wallet": {"id": "wallet_0", "address": "0xEB1D8714D430Df1ebAd5dD202010d6fA020f4F07", "nickname": "BNB-farm", "datafile": "data/wallet_0.json"}, "date": "Thu, 18 Mar 2021 04:37:59 GMT", "farms": {"platforms": []}, "balances": []}
 {"wallet": {"id": "wallet_0", "address": "0xEB1D8714D430Df1ebAd5dD202010d6fA020f4F07", "nickname": "BNB-farm", "datafile": "data/wallet_0.json"}, "date": "Thu, 18 Mar 2021 05:00:28 GMT", "farms": {"platforms": []}, "balances": []}
+{"wallet": {"id": "wallet_0", "address": "0xEB1D8714D430Df1ebAd5dD202010d6fA020f4F07", "nickname": "BNB-farm", "datafile": "data/wallet_0.json"}, "date": "Thu, 18 Mar 2021 05:30:30 GMT", "farms": {"platforms": null}, "balances": []}
