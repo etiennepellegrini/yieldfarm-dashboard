@@ -1964,3 +1964,19 @@ To github.com:etiennepellegrini/yieldfarm-dashboard.git
 Already on 'data'
 Couldn't compute yield
 Finished successfully! Committing data!
+--- Date: 20210320T033000
+Already on 'data'
+Traceback (most recent call last):
+  File "/Users/etiennes/GoogleDrive/code/perso/yieldfarm-dashboard/src/dataUpdate.py", line 64, in <module>
+    dataUpdate(config)
+  File "/Users/etiennes/GoogleDrive/code/perso/yieldfarm-dashboard/src/dataUpdate.py", line 47, in dataUpdate
+    updateWallet(wallet, config["verbose"])
+  File "/Users/etiennes/GoogleDrive/code/perso/yieldfarm-dashboard/src/dataUpdate.py", line 33, in updateWallet
+    displayYield.displayYield(farms, verbose)
+  File "/Users/etiennes/GoogleDrive/code/perso/yieldfarm-dashboard/src/displayYield.py", line 12, in displayYield
+    rews.append(sum([x["usd"] for x in farm["rewards"]]))
+KeyError: 'rewards'
+---------------------------------------------------------
+--- Date: 20210320T033243
+Sat, 20 Mar 2021 10:32:49 GMT: Value:  1473.832979 USD    Deposits:  1439.039329 USD    rewards:    34.793650 USD    ROI:     2.417839 %
+Finished successfully! Committing data!
