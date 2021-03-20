@@ -7,12 +7,16 @@ def displayYield(apiResponse, verbose=1):
     rews = []
     resp = apiResponse.json()
     for platform in resp["platforms"]:
-        for farm in platform["farms"]:
-            deps.append(farm["deposit"]["usd"])
-            rews.append(sum([x["usd"] for x in farm["rewards"]]))
-            perc = float(rews[-1]/deps[-1])*100.0
-            if verbose > 1:
-                print(f'Farm: {farm["farm"]["id"]:35} ({farm["deposit"]["symbol"]:10}): deposits: {deps[-1]:12.6f} USD, reward: {rews[-1]:12.6f} USD, ({perc:6.4f} %)')
+        if verbose > 1:
+            for farm in platform["farms"]:
+                deps.append(farm["deposit"]["usd"])
+                rews.append(sum([x.get("usd", 0.0) for x in farm.get("rewards", [{}])]))
+                perc = float(rews[-1]/deps[-1])*100.0
+                if verbose > 1:
+                    print(f'Farm: {farm["farm"]["id"]:35} ({farm["deposit"]["symbol"]:10}): deposits: {deps[-1]:12.6f} USD, reward: {rews[-1]:12.6f} USD, ({perc:6.4f} %)')
+        else:
+            deps.append(platform["usd"])
+            rews.append(platform["rewards_total"])
 
     dep = sum(deps)
     rew = sum(rews)

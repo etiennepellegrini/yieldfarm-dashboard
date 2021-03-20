@@ -30,7 +30,10 @@ def updateWallet(wallet, verbose):
 
     # Display ROI
     if verbose:
-        displayYield.displayYield(farms, verbose)
+        try:
+            displayYield.displayYield(farms, verbose)
+        except:
+            print("Couldn't compute yield")
 
 
 def loadConfig(args):
