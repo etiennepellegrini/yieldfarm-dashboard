@@ -3989,3 +3989,12 @@ requests.exceptions.ConnectionError: HTTPSConnectionPool(host='farm.army', port=
 Already on 'data'
 Couldn't compute yield
 Finished successfully! Committing data!
+[data c484ca6] update: Data update on 20210325T090000
+ 3 files changed, 69 insertions(+)
+To github.com:etiennepellegrini/yieldfarm-dashboard.git
+   e276d69..c484ca6  data -> data
+---------------------------------------------------------
+--- Date: 20210325T093000
+Already on 'data'
+Thu, 25 Mar 2021 16:30:08 GMT: Value:  1323.292143 USD    Deposits:  1255.720414 USD    rewards:    67.571730 USD    ROI:     5.381113 %
+Finished successfully! Committing data!
