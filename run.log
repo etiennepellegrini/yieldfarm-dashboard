@@ -4808,3 +4808,128 @@ To github.com:etiennepellegrini/yieldfarm-dashboard.git
 Already on 'data'
 Sat, 27 Mar 2021 12:30:07 GMT: Value:  1664.841364 USD    Deposits:  1560.266269 USD    rewards:   104.575095 USD    ROI:     6.702388 %
 Finished successfully! Committing data!
+[data f8e634a] update: Data update on 20210327T053000
+ 3 files changed, 11 insertions(+)
+To github.com:etiennepellegrini/yieldfarm-dashboard.git
+   c2c4479..f8e634a  data -> data
+---------------------------------------------------------
+--- Date: 20210327T060001
+Already on 'data'
+Traceback (most recent call last):
+  File "/Users/etiennes/GoogleDrive/code/perso/yieldfarm-dashboard/yieldfarmEnv/lib/python3.9/site-packages/urllib3/connection.py", line 169, in _new_conn
+    conn = connection.create_connection(
+  File "/Users/etiennes/GoogleDrive/code/perso/yieldfarm-dashboard/yieldfarmEnv/lib/python3.9/site-packages/urllib3/util/connection.py", line 96, in create_connection
+    raise err
+  File "/Users/etiennes/GoogleDrive/code/perso/yieldfarm-dashboard/yieldfarmEnv/lib/python3.9/site-packages/urllib3/util/connection.py", line 86, in create_connection
+    sock.connect(sa)
+TimeoutError: [Errno 60] Operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/etiennes/GoogleDrive/code/perso/yieldfarm-dashboard/yieldfarmEnv/lib/python3.9/site-packages/urllib3/connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "/Users/etiennes/GoogleDrive/code/perso/yieldfarm-dashboard/yieldfarmEnv/lib/python3.9/site-packages/urllib3/connectionpool.py", line 382, in _make_request
+    self._validate_conn(conn)
+  File "/Users/etiennes/GoogleDrive/code/perso/yieldfarm-dashboard/yieldfarmEnv/lib/python3.9/site-packages/urllib3/connectionpool.py", line 1010, in _validate_conn
+    conn.connect()
+  File "/Users/etiennes/GoogleDrive/code/perso/yieldfarm-dashboard/yieldfarmEnv/lib/python3.9/site-packages/urllib3/connection.py", line 353, in connect
+    conn = self._new_conn()
+  File "/Users/etiennes/GoogleDrive/code/perso/yieldfarm-dashboard/yieldfarmEnv/lib/python3.9/site-packages/urllib3/connection.py", line 181, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x10a2f9910>: Failed to establish a new connection: [Errno 60] Operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/etiennes/GoogleDrive/code/perso/yieldfarm-dashboard/yieldfarmEnv/lib/python3.9/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/Users/etiennes/GoogleDrive/code/perso/yieldfarm-dashboard/yieldfarmEnv/lib/python3.9/site-packages/urllib3/connectionpool.py", line 755, in urlopen
+    retries = retries.increment(
+  File "/Users/etiennes/GoogleDrive/code/perso/yieldfarm-dashboard/yieldfarmEnv/lib/python3.9/site-packages/urllib3/util/retry.py", line 573, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='farm.army', port=443): Max retries exceeded with url: /api/v0/farms/0xEB1D8714D430Df1ebAd5dD202010d6fA020f4F07 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x10a2f9910>: Failed to establish a new connection: [Errno 60] Operation timed out'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/etiennes/GoogleDrive/code/perso/yieldfarm-dashboard/src/dataUpdate.py", line 67, in <module>
+    dataUpdate(config)
+  File "/Users/etiennes/GoogleDrive/code/perso/yieldfarm-dashboard/src/dataUpdate.py", line 50, in dataUpdate
+    updateWallet(wallet, config["verbose"])
+  File "/Users/etiennes/GoogleDrive/code/perso/yieldfarm-dashboard/src/dataUpdate.py", line 14, in updateWallet
+    farms = requests.get(f'https://farm.army/api/v0/farms/{address}')
+  File "/Users/etiennes/GoogleDrive/code/perso/yieldfarm-dashboard/yieldfarmEnv/lib/python3.9/site-packages/requests/api.py", line 76, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Users/etiennes/GoogleDrive/code/perso/yieldfarm-dashboard/yieldfarmEnv/lib/python3.9/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/etiennes/GoogleDrive/code/perso/yieldfarm-dashboard/yieldfarmEnv/lib/python3.9/site-packages/requests/sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/etiennes/GoogleDrive/code/perso/yieldfarm-dashboard/yieldfarmEnv/lib/python3.9/site-packages/requests/sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/etiennes/GoogleDrive/code/perso/yieldfarm-dashboard/yieldfarmEnv/lib/python3.9/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='farm.army', port=443): Max retries exceeded with url: /api/v0/farms/0xEB1D8714D430Df1ebAd5dD202010d6fA020f4F07 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x10a2f9910>: Failed to establish a new connection: [Errno 60] Operation timed out'))
+---------------------------------------------------------
+--- Date: 20210327T063000
+Already on 'data'
+Traceback (most recent call last):
+  File "/Users/etiennes/GoogleDrive/code/perso/yieldfarm-dashboard/yieldfarmEnv/lib/python3.9/site-packages/urllib3/connection.py", line 169, in _new_conn
+    conn = connection.create_connection(
+  File "/Users/etiennes/GoogleDrive/code/perso/yieldfarm-dashboard/yieldfarmEnv/lib/python3.9/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/usr/local/Cellar/python@3.9/3.9.2_3/Frameworks/Python.framework/Versions/3.9/lib/python3.9/socket.py", line 953, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/etiennes/GoogleDrive/code/perso/yieldfarm-dashboard/yieldfarmEnv/lib/python3.9/site-packages/urllib3/connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "/Users/etiennes/GoogleDrive/code/perso/yieldfarm-dashboard/yieldfarmEnv/lib/python3.9/site-packages/urllib3/connectionpool.py", line 382, in _make_request
+    self._validate_conn(conn)
+  File "/Users/etiennes/GoogleDrive/code/perso/yieldfarm-dashboard/yieldfarmEnv/lib/python3.9/site-packages/urllib3/connectionpool.py", line 1010, in _validate_conn
+    conn.connect()
+  File "/Users/etiennes/GoogleDrive/code/perso/yieldfarm-dashboard/yieldfarmEnv/lib/python3.9/site-packages/urllib3/connection.py", line 353, in connect
+    conn = self._new_conn()
+  File "/Users/etiennes/GoogleDrive/code/perso/yieldfarm-dashboard/yieldfarmEnv/lib/python3.9/site-packages/urllib3/connection.py", line 181, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x101e47bb0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/etiennes/GoogleDrive/code/perso/yieldfarm-dashboard/yieldfarmEnv/lib/python3.9/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/Users/etiennes/GoogleDrive/code/perso/yieldfarm-dashboard/yieldfarmEnv/lib/python3.9/site-packages/urllib3/connectionpool.py", line 755, in urlopen
+    retries = retries.increment(
+  File "/Users/etiennes/GoogleDrive/code/perso/yieldfarm-dashboard/yieldfarmEnv/lib/python3.9/site-packages/urllib3/util/retry.py", line 573, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='farm.army', port=443): Max retries exceeded with url: /api/v0/farms/0xEB1D8714D430Df1ebAd5dD202010d6fA020f4F07 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x101e47bb0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/etiennes/GoogleDrive/code/perso/yieldfarm-dashboard/src/dataUpdate.py", line 67, in <module>
+    dataUpdate(config)
+  File "/Users/etiennes/GoogleDrive/code/perso/yieldfarm-dashboard/src/dataUpdate.py", line 50, in dataUpdate
+    updateWallet(wallet, config["verbose"])
+  File "/Users/etiennes/GoogleDrive/code/perso/yieldfarm-dashboard/src/dataUpdate.py", line 14, in updateWallet
+    farms = requests.get(f'https://farm.army/api/v0/farms/{address}')
+  File "/Users/etiennes/GoogleDrive/code/perso/yieldfarm-dashboard/yieldfarmEnv/lib/python3.9/site-packages/requests/api.py", line 76, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Users/etiennes/GoogleDrive/code/perso/yieldfarm-dashboard/yieldfarmEnv/lib/python3.9/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/etiennes/GoogleDrive/code/perso/yieldfarm-dashboard/yieldfarmEnv/lib/python3.9/site-packages/requests/sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/etiennes/GoogleDrive/code/perso/yieldfarm-dashboard/yieldfarmEnv/lib/python3.9/site-packages/requests/sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/etiennes/GoogleDrive/code/perso/yieldfarm-dashboard/yieldfarmEnv/lib/python3.9/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='farm.army', port=443): Max retries exceeded with url: /api/v0/farms/0xEB1D8714D430Df1ebAd5dD202010d6fA020f4F07 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x101e47bb0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+---------------------------------------------------------
+--- Date: 20210327T070001
+Already on 'data'
+Sat, 27 Mar 2021 14:00:10 GMT: Value:  1679.826778 USD    Deposits:  1573.360986 USD    rewards:   106.465792 USD    ROI:     6.766775 %
+Finished successfully! Committing data!
