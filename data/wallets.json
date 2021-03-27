@@ -3,6 +3,16 @@
 		"id": "wallet_0",
 		"address": "0xEB1D8714D430Df1ebAd5dD202010d6fA020f4F07",
 		"nickname": "BNB-farm",
-		"datafile": "data/wallet_0.json"
+		"datafile": "data/wallet_0.json",
+		"harvested-rewards": [
+			{
+				"date": "2021-03-27",
+				"amount": {
+					"symbol": "cake",
+					"value": "3.029300000",
+					"usd": "44.894226000"
+				}
+			}
+		]
 	}
 ]
