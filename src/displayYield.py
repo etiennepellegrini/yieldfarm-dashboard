@@ -27,6 +27,9 @@ def displayYield(apiResponse, wallet=None, verbose=1):
             rew = rew + harvested_reinvested
             dep = dep - harvested_reinvested
     tot = dep + rew
+    if verbose > 1:
+       perc = harvested_reinvested / tot * 100.0
+       print(f'Harvested & reinvested:                                                             reward: {harvested_reinvested:12.6f} USD, ({perc:6.4f} %)')
     perc = rew / dep * 100.000
     if verbose: print(f"{apiResponse.headers['Date']}: Value: {tot:>12.6f} USD    Deposits: {dep:>12.6f} USD    rewards: {rew:12.6f} USD    ROI: {perc:>12.6f} %")
 
