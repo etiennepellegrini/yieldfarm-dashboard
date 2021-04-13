@@ -10430,3 +10430,10 @@ json.decoder.JSONDecodeError: Expecting ',' delimiter: line 40 column 4 (char 73
 --- Date: 20210412T235705
 Tue, 13 Apr 2021 06:57:19 GMT: Value:  2955.171431 USD    Deposits:  2715.525218 USD    rewards:   239.646213 USD    ROI:     8.825041 %
 Finished successfully! Committing data!
+[data bb8d665] update: Data update on 20210412T235705
+ 3 files changed, 5 insertions(+)
+---------------------------------------------------------
+--- Date: 20210413T113000
+Already on 'data'
+Tue, 13 Apr 2021 18:30:09 GMT: Value:  2900.427845 USD    Deposits:  2656.387004 USD    rewards:   244.040841 USD    ROI:     9.186946 %
+Finished successfully! Committing data!
