@@ -10680,3 +10680,12 @@ To github.com:etiennepellegrini/yieldfarm-dashboard.git
 Already on 'data'
 Wed, 14 Apr 2021 08:00:17 GMT: Value:  2995.653838 USD    Deposits:  2740.600534 USD    rewards:   255.053303 USD    ROI:     9.306475 %
 Finished successfully! Committing data!
+[data 1178167] update: Data update on 20210414T010001
+ 3 files changed, 11 insertions(+)
+To github.com:etiennepellegrini/yieldfarm-dashboard.git
+   43697de..1178167  data -> data
+---------------------------------------------------------
+--- Date: 20210414T013001
+Already on 'data'
+Wed, 14 Apr 2021 08:30:08 GMT: Value:  3022.456445 USD    Deposits:  2767.067804 USD    rewards:   255.388640 USD    ROI:     9.229577 %
+Finished successfully! Committing data!
