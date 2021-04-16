@@ -11670,3 +11670,12 @@ To github.com:etiennepellegrini/yieldfarm-dashboard.git
 Already on 'data'
 Couldn't compute yield
 Finished successfully! Committing data!
+[data 99de420] update: Data update on 20210416T103000
+ 3 files changed, 11 insertions(+)
+To github.com:etiennepellegrini/yieldfarm-dashboard.git
+   f6d7b9f..99de420  data -> data
+---------------------------------------------------------
+--- Date: 20210416T110001
+Already on 'data'
+Fri, 16 Apr 2021 18:00:19 GMT: Value:  2784.797472 USD    Deposits:  2517.460913 USD    rewards:   267.336559 USD    ROI:    10.619293 %
+Finished successfully! Committing data!
