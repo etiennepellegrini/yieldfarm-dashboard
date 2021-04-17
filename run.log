@@ -11995,3 +11995,12 @@ requests.exceptions.SSLError: HTTPSConnectionPool(host='farm.army', port=443): M
 Already on 'data'
 Sat, 17 Apr 2021 09:00:16 GMT: Value:  2934.935208 USD    Deposits:  2659.304538 USD    rewards:   275.630671 USD    ROI:    10.364765 %
 Finished successfully! Committing data!
+[data 38fe4b2] update: Data update on 20210417T020000
+ 3 files changed, 66 insertions(+)
+To github.com:etiennepellegrini/yieldfarm-dashboard.git
+   29aed20..38fe4b2  data -> data
+---------------------------------------------------------
+--- Date: 20210417T023000
+Already on 'data'
+Sat, 17 Apr 2021 09:30:12 GMT: Value:  2926.234159 USD    Deposits:  2649.013612 USD    rewards:   277.220547 USD    ROI:    10.465048 %
+Finished successfully! Committing data!
