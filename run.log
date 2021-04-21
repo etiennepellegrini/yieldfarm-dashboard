@@ -13585,3 +13585,12 @@ To github.com:etiennepellegrini/yieldfarm-dashboard.git
 Already on 'data'
 Couldn't compute yield
 Finished successfully! Committing data!
+[data 38de52a] update: Data update on 20210421T053000
+ 3 files changed, 11 insertions(+)
+To github.com:etiennepellegrini/yieldfarm-dashboard.git
+   fa48676..38de52a  data -> data
+---------------------------------------------------------
+--- Date: 20210421T060001
+Already on 'data'
+Couldn't compute yield
+Finished successfully! Committing data!
