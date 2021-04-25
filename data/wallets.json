@@ -4,9 +4,18 @@
 		"address": "0xEB1D8714D430Df1ebAd5dD202010d6fA020f4F07",
 		"nickname": "BNB-farm",
 		"datafile": "data/wallet_0.json",
-		"cash_in": {
-			"bnb": "5.6042825"
-		},
+		"cash_in": [
+			{
+				"date": "2021-03-11",
+				"bnb": "3.6952825",
+				"usd": "1034.6791"
+			},
+			{
+				"date": "2021-03-20",
+				"bnb": "1.909",
+				"usd": "505.8850"
+			}
+		],
 		"harvested-rewards": [
 			{
 				"date": "2021-03-27",
