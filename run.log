@@ -14779,3 +14779,11 @@ Finished successfully! Committing data!
 --- Date: 20210425T150808
 Sun, 25 Apr 2021 22:08:17 GMT: Value:  3209.197348 USD    Deposits:  2804.929048 USD    rewards:   404.268299 USD    ROI:    14.412782 %
 Finished successfully! Committing data!
+[data d395dc8] update: Data update on 20210425T150808
+ 4 files changed, 11 insertions(+)
+---------------------------------------------------------
+--- Date: 20210425T151728
+--- Date: 20210425T153001
+Already on 'data'
+Sun, 25 Apr 2021 22:30:09 GMT: Value:  3143.526799 USD    Deposits:  2743.665238 USD    rewards:   399.861561 USD    ROI:    14.573992 %
+Finished successfully! Committing data!
