@@ -15399,3 +15399,88 @@ To github.com:etiennepellegrini/yieldfarm-dashboard.git
 Already on 'data'
 Couldn't compute yield
 Finished successfully! Committing data!
+[data e75d3f5] update: Data update on 20210427T060000
+ 3 files changed, 11 insertions(+)
+To github.com:etiennepellegrini/yieldfarm-dashboard.git
+   98f01c7..e75d3f5  data -> data
+---------------------------------------------------------
+--- Date: 20210427T063001
+Already on 'data'
+Traceback (most recent call last):
+  File "/Users/etiennes/GoogleDrive/code/perso/yieldfarm-dashboard/src/dataUpdate.py", line 67, in <module>
+    dataUpdate(config)
+  File "/Users/etiennes/GoogleDrive/code/perso/yieldfarm-dashboard/src/dataUpdate.py", line 50, in dataUpdate
+    updateWallet(wallet, config["verbose"])
+  File "/Users/etiennes/GoogleDrive/code/perso/yieldfarm-dashboard/src/dataUpdate.py", line 23, in updateWallet
+    "farms": farms.json(),
+  File "/Users/etiennes/GoogleDrive/code/perso/yieldfarm-dashboard/yieldfarmEnv/lib/python3.9/site-packages/requests/models.py", line 900, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "/usr/local/Cellar/python@3.9/3.9.4/Frameworks/Python.framework/Versions/3.9/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/local/Cellar/python@3.9/3.9.4/Frameworks/Python.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/local/Cellar/python@3.9/3.9.4/Frameworks/Python.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+---------------------------------------------------------
+--- Date: 20210427T070001
+Already on 'data'
+Traceback (most recent call last):
+  File "/Users/etiennes/GoogleDrive/code/perso/yieldfarm-dashboard/src/dataUpdate.py", line 67, in <module>
+    dataUpdate(config)
+  File "/Users/etiennes/GoogleDrive/code/perso/yieldfarm-dashboard/src/dataUpdate.py", line 50, in dataUpdate
+    updateWallet(wallet, config["verbose"])
+  File "/Users/etiennes/GoogleDrive/code/perso/yieldfarm-dashboard/src/dataUpdate.py", line 23, in updateWallet
+    "farms": farms.json(),
+  File "/Users/etiennes/GoogleDrive/code/perso/yieldfarm-dashboard/yieldfarmEnv/lib/python3.9/site-packages/requests/models.py", line 900, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "/usr/local/Cellar/python@3.9/3.9.4/Frameworks/Python.framework/Versions/3.9/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/local/Cellar/python@3.9/3.9.4/Frameworks/Python.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/local/Cellar/python@3.9/3.9.4/Frameworks/Python.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+---------------------------------------------------------
+--- Date: 20210427T073001
+Already on 'data'
+Traceback (most recent call last):
+  File "/Users/etiennes/GoogleDrive/code/perso/yieldfarm-dashboard/src/dataUpdate.py", line 67, in <module>
+    dataUpdate(config)
+  File "/Users/etiennes/GoogleDrive/code/perso/yieldfarm-dashboard/src/dataUpdate.py", line 50, in dataUpdate
+    updateWallet(wallet, config["verbose"])
+  File "/Users/etiennes/GoogleDrive/code/perso/yieldfarm-dashboard/src/dataUpdate.py", line 23, in updateWallet
+    "farms": farms.json(),
+  File "/Users/etiennes/GoogleDrive/code/perso/yieldfarm-dashboard/yieldfarmEnv/lib/python3.9/site-packages/requests/models.py", line 900, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "/usr/local/Cellar/python@3.9/3.9.4/Frameworks/Python.framework/Versions/3.9/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/local/Cellar/python@3.9/3.9.4/Frameworks/Python.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/local/Cellar/python@3.9/3.9.4/Frameworks/Python.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+---------------------------------------------------------
+--- Date: 20210427T080001
+Already on 'data'
+Traceback (most recent call last):
+  File "/Users/etiennes/GoogleDrive/code/perso/yieldfarm-dashboard/src/dataUpdate.py", line 67, in <module>
+    dataUpdate(config)
+  File "/Users/etiennes/GoogleDrive/code/perso/yieldfarm-dashboard/src/dataUpdate.py", line 50, in dataUpdate
+    updateWallet(wallet, config["verbose"])
+  File "/Users/etiennes/GoogleDrive/code/perso/yieldfarm-dashboard/src/dataUpdate.py", line 23, in updateWallet
+    "farms": farms.json(),
+  File "/Users/etiennes/GoogleDrive/code/perso/yieldfarm-dashboard/yieldfarmEnv/lib/python3.9/site-packages/requests/models.py", line 900, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "/usr/local/Cellar/python@3.9/3.9.4/Frameworks/Python.framework/Versions/3.9/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/local/Cellar/python@3.9/3.9.4/Frameworks/Python.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/local/Cellar/python@3.9/3.9.4/Frameworks/Python.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+---------------------------------------------------------
+--- Date: 20210427T083000
+Already on 'data'
+Couldn't compute yield
+Finished successfully! Committing data!
