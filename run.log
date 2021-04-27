@@ -15484,3 +15484,31 @@ json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
 Already on 'data'
 Couldn't compute yield
 Finished successfully! Committing data!
+[data 47c7ec3] update: Data update on 20210427T083000
+ 3 files changed, 87 insertions(+)
+To github.com:etiennepellegrini/yieldfarm-dashboard.git
+   e75d3f5..47c7ec3  data -> data
+---------------------------------------------------------
+--- Date: 20210427T090001
+Already on 'data'
+Traceback (most recent call last):
+  File "/Users/etiennes/GoogleDrive/code/perso/yieldfarm-dashboard/src/dataUpdate.py", line 67, in <module>
+    dataUpdate(config)
+  File "/Users/etiennes/GoogleDrive/code/perso/yieldfarm-dashboard/src/dataUpdate.py", line 50, in dataUpdate
+    updateWallet(wallet, config["verbose"])
+  File "/Users/etiennes/GoogleDrive/code/perso/yieldfarm-dashboard/src/dataUpdate.py", line 24, in updateWallet
+    "balances": balances.json(),
+  File "/Users/etiennes/GoogleDrive/code/perso/yieldfarm-dashboard/yieldfarmEnv/lib/python3.9/site-packages/requests/models.py", line 900, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "/usr/local/Cellar/python@3.9/3.9.4/Frameworks/Python.framework/Versions/3.9/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/local/Cellar/python@3.9/3.9.4/Frameworks/Python.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/local/Cellar/python@3.9/3.9.4/Frameworks/Python.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+---------------------------------------------------------
+--- Date: 20210427T093000
+Already on 'data'
+Tue, 27 Apr 2021 16:30:17 GMT: Value:  4401.216172 USD    Deposits:  3952.684466 USD    rewards:   448.531707 USD    ROI:    11.347521 %
+Finished successfully! Committing data!
