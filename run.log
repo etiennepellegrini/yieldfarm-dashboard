@@ -15512,3 +15512,12 @@ json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
 Already on 'data'
 Tue, 27 Apr 2021 16:30:17 GMT: Value:  4401.216172 USD    Deposits:  3952.684466 USD    rewards:   448.531707 USD    ROI:    11.347521 %
 Finished successfully! Committing data!
+[data 77dee2d] update: Data update on 20210427T093000
+ 3 files changed, 30 insertions(+)
+To github.com:etiennepellegrini/yieldfarm-dashboard.git
+   47c7ec3..77dee2d  data -> data
+---------------------------------------------------------
+--- Date: 20210427T100001
+Already on 'data'
+Couldn't compute yield
+Finished successfully! Committing data!
