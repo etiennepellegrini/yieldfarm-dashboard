@@ -14,7 +14,7 @@ def displayYield(apiResponse, wallet=None, verbose=1):
                 rews.append(sum([x.get("usd", 0.0) for x in farm.get("rewards", [{}])]))
                 perc = float(rews[-1]/deps[-1])*100.0
                 if verbose > 1:
-                    print(f'Farm: {farm["farm"]["id"]:35} ({farm["deposit"]["symbol"]:10}): deposits: {deps[-1]:12.6f} USD, reward: {rews[-1]:12.6f} USD, ({perc:6.4f} %)')
+                    print(f'Farm: {farm["farm"]["id"]:35} ({farm["deposit"].get("symbol", "no-symbol"):10}): deposits: {deps[-1]:12.6f} USD, reward: {rews[-1]:12.6f} USD, ({perc:6.4f} %)')
         else:
             deps.append(platform["usd"])
             rews.append(platform["rewards_total"])
