@@ -2,6 +2,7 @@ import argparse
 import json
 import jsonlines
 import requests
+import sys
 
 import displayYield
 
@@ -34,6 +35,7 @@ def updateWallet(wallet, verbose):
             displayYield.displayYield(farms, wallet, verbose)
         except:
             print("Couldn't compute yield")
+            sys.exit(1)
 
 
 def loadConfig(args):
